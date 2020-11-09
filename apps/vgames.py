@@ -41,7 +41,7 @@ layout = html.Div([
     [Input(component_id='genre-dropdown', component_property='value')]
 )
 def display_value(genre_chosen):
-    print(genre_chosen)
+    # print(genre_chosen)
     linechart = px.line(
             data_frame = dfv,
             x = "date",
