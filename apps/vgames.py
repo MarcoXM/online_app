@@ -18,7 +18,7 @@ layout = html.Div([
 
     html.Div([
         html.Div(dcc.Dropdown(
-            id='genre-dropdown', value='Strategy', clearable=False,
+            id='genre-dropdown', value='visits', clearable=False,
             options=[
                         {'label': 'numbers of visits', 'value': 'visits'},
                         {'label': 'bounce rate', 'value': 'bounce_rate'},

@@ -1,3 +1,5 @@
 {
-    "python.pythonPath": "/home/marco/.devops/bin/python3"
+    "python.pythonPath": "/Users/marco/opt/miniconda3/envs/ml/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
 }
